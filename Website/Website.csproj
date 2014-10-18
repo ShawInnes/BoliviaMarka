@@ -109,6 +109,7 @@
     <Content Include="assets\css\plugins\hover-effect\scss\_defaults.scss" />
     <Content Include="assets\css\plugins\hover-effect\scss\_hacks.scss" />
     <Content Include="assets\css\plugins\hover-effect\scss\_options.scss" />
+    <Content Include="assets\img\dances\cueca.jpg" />
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
