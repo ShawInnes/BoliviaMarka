@@ -17,13 +17,13 @@ namespace Website
 				"~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.plugins.min.js",
 				"~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.revolution.min.js"));
 
-			bundles.Add(new StyleBundle("~/bundles/css").Include(
-				"~/assets/plugins/bootstrap/css/bootstrap.min.css",
-				"~/assets/css/style.css",
-				"~/assets/plugins/font-awesome/css/font-awesome.min.css",
-				"~/assets/plugins/revolution-slider/examples/rs-plugin/css/settings.css",
-				"~/assets/css/custom.css"));
-
+			bundles.Add(new StyleBundle("~/bundles/css")
+				.Include("~/assets/plugins/bootstrap/css/bootstrap.min.css", new CssRewriteUrlTransform())
+				.Include("~/assets/css/style.css", new CssRewriteUrlTransform())
+				.Include("~/assets/plugins/font-awesome/css/font-awesome.min.css", new CssRewriteUrlTransform())
+				.Include("~/assets/plugins/revolution-slider/examples/rs-plugin/css/settings.css", new CssRewriteUrlTransform())
+				.Include("~/assets/css/custom.css", new CssRewriteUrlTransform()));
+			
 			BundleTable.EnableOptimizations = false;
 		}
 	}

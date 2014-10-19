@@ -9,7 +9,8 @@ namespace Website.Controllers
 	public class HomeController : Controller
     {
         // GET: Home
-        public ActionResult Index()
+		[OutputCache(Duration = 3600)]
+		public ActionResult Index()
         {
             return View();
         }

@@ -1,128 +1,32 @@
-﻿@{	
-}
+﻿@using Website.Models
+@model IEnumerable<DanceInfo>
 <div class="container margin-bottom-30">
 	<div class="headline"><h2>Bolivian Dances</h2></div>
 	<div class="row margin-bottom-20">
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<img class="img-responsive" src="~/assets/img/dances/caporales.jpg" alt="">
+		@foreach (DanceInfo item in Model)
+		{
+			<div class="col-md-4 col-sm-6">
+				<div class="thumbnails thumbnail-style thumbnail-kenburn">
+					<div class="caption">
+						<h3>
+							@Html.ActionLink(item.Name, "Info", "Dances", new { dance = item.Name }, new { @class = "hover-effect" })
+						</h3>
 					</div>
-					<a class="btn btn-more hover-effect" href="#">learn more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="#">Caporales</a></h3>
-					<p>The Caporales is a Bolivian dance that stems from Afro-Andean dances in the Yungas region, such as the Tundiki and Saya. The dance represents the foremen who were in charge of the slaves in colonial times.</p>
-					<audio controls="controls" preload="none">
-						<source src="~/assets/audio/Caporales-Kjarkas-JilgueroFlores.mp3" type="audio/mpeg" />
-					</audio>
-					<p>
-						Jilguero Flores by Los Kjarkas
-					</p>
+					<div class="thumbnail-img">
+						<div class="overflow-hidden">
+							<img class="img-responsive" src="@item.ImagePath" alt="@item.Name">
+						</div>
+						@Html.ActionLink("learn more+", "Info", "Dances", new { dance = item.Name }, new { @class = "btn btn-more hover-effect" })
+					</div>
+					<div class="caption">
+						<p>@item.ShortDescription</p>
+						<audio controls="controls" preload="none">
+							<source src="@item.AudioPath" type="audio/mpeg" />
+						</audio>
+						<p>@item.AudioDescription</p>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<img class="img-responsive" src="~/assets/img/dances/morenada2.jpg" alt="">
-					</div>
-					<a class="btn btn-more hover-effect" href="#">learn more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="#">Morenada</a></h3>
-					<p>The Morenada is a music and dance style from the Bolivian Andes characterized by a mixture of African and Indigenous elements.</p>
-					<audio controls="controls" preload="none">
-						<source src="~/assets/audio/Morenada-MariaJuana-Idilio.mp3" type="audio/mpeg" />
-					</audio>
-					<p>
-						Idilio by Maria Juana
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<img class="img-responsive" src="~/assets/img/dances/diablada.jpg" alt="">
-					</div>
-					<a class="btn btn-more hover-effect" href="#">learn more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="#">Diablada</a></h3>
-					<p>The Diablada or Danza de los Diablos (English: Dance of the Devils), is a dance characterized by the mask and devil suit worn by the performers.</p>
-					<audio controls="controls" preload="none">
-						<source src="~/assets/audio/Diablada-Llajtaymanta-ElChiruChiru.mp3" type="audio/mpeg" />
-					</audio>
-					<p>
-						El Chiru Chiru by Llajtaymanta
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<img class="img-responsive" src="~/assets/img/dances/tinku.jpg" alt="">
-					</div>
-					<a class="btn btn-more hover-effect" href="tinku.html">learn more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="#">Tinku</a></h3>
-					<p>Tinku, a Bolivian Aymara tradition, began as a form of ritualistic combat. In the language of Aymara it means "physical attack".</p>
-					<audio controls="controls" preload="none">
-						<source src="~/assets/audio/Tinku-IntiIllimani-SenoraChichera.mp3" type="audio/mpeg" />
-					</audio>
-					<p>
-						Senora Chichera by Inti Illimani
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<img class="img-responsive" src="~/assets/img/dances/tobas1.jpg" alt="">
-					</div>
-					<a class="btn btn-more hover-effect" href="#">learn more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="#">Tobas</a></h3>
-					<p>The Tobas is a folk dance from Bolivia. The folkloric dance of the Tobas speaks of the ancient past of Bolivia. It has roots in a time when the Incas were the predominant force in the Andean highlands region. Tobas is an athletic dance comprising agile steps accentuated with many jumps and bounds.</p>
-					<audio controls="controls" preload="none">
-						<source src="~/assets/audio/Tobas-KalaMarka-EsAsi.mp3" type="audio/mpeg" />
-					</audio>
-					<p>
-						Es Asi by Kala Mara
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<img class="img-responsive" src="~/assets/img/dances/cueca.jpg" alt="">
-					</div>
-					<a class="btn btn-more hover-effect" href="#">learn more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="#">Cueca</a></h3>
-					<p>In Bolivia there are lots of different Cueca styles according to the region: Cueca Paceña, Cueca Cochabambina, Cueca Chuquisaqueña, Cueca Tarijeña, Cueca Potosina y Cueca Chaqueña. What they have in common is their rhythm, but they differ quite a lot in velocity, costumes and style. The Cueca styles of La Paz, Potosí and Sucre are the elegant ones, whereas in Cochabamba and Tarija the style is much more lively.In Bolivia, it is usually called "Cuequita Boliviana"</p>
-					<audio controls="controls" preload="none">
-						<source src="~/assets/audio/Cueca-Bonanza-ElRegresso.mp3" type="audio/mpeg" />
-					</audio>
-					<p>
-						El Regresso by Bonanza
-					</p>
-				</div>
-			</div>
-		</div>
+		}
 	</div>
-	<!-- End Recent Works -->
-</div><!--/container-->
+</div>

@@ -1,0 +1,16 @@
+﻿@model Website.Models.DanceInfo
+<div class="container margin-bottom-30">
+	<div class="headline"><h2>@Model.Name</h2></div>
+	<div class="row">
+		<div class="thumbnail-img col-md-4">
+			<div class="overflow-hidden">
+				<img class="img-responsive" src="@Model.ImagePath" alt="@Model.Name">
+			</div>
+		</div>
+		<div class="col-md-8">
+			<p>@Model.ShortDescription</p>
+			
+			<embed src="http://www.youtube.com/v/@}Model.YouTube">
+		</div>
+	</div>
+</div>
