@@ -178,7 +178,7 @@
     <Content Include="assets\img\dances\5x7_MG_6800.jpg" />
     <Content Include="assets\img\dances\5x7_MG_6852.jpg" />
     <Content Include="assets\img\dances\caporales_sq.jpg" />
-    <Content Include="assets\img\dances\cueca.jpg" />
+    <Content Include="assets\img\dances\cueca_sq.jpg" />
     <Content Include="assets\img\dances\IMG_8780.jpg" />
     <Content Include="assets\img\dances\IMG_8790.jpg" />
     <Content Include="assets\img\dances\IMG_8843.jpg" />
@@ -211,7 +211,7 @@
     <Content Include="assets\img\dances\IMG_9426.jpg" />
     <Content Include="assets\img\dances\IMG_9428.jpg" />
     <Content Include="assets\img\dances\IMG_9469.jpg" />
-    <Content Include="assets\img\dances\tobas.jpg" />
+    <Content Include="assets\img\dances\tobas_sq.jpg" />
     <Content Include="assets\img\dances\_MG_1856.jpg" />
     <Content Include="assets\img\dances\_MG_1881.jpg" />
     <Content Include="assets\img\dances\_MG_1904.jpg" />
@@ -1279,13 +1279,13 @@
     <Content Include="assets\img\dances\75210_10151843122217544_808281631_n.jpg" />
     <Content Include="assets\img\dances\caporales.jpg" />
     <Content Include="assets\img\dances\caporales3.jpg" />
+    <Content Include="assets\img\dances\diablada_sq.jpg" />
     <Content Include="assets\img\dances\diablada.jpg" />
-    <Content Include="assets\img\dances\diablada1.jpg" />
     <Content Include="assets\img\dances\morenada1.jpg" />
     <Content Include="assets\img\dances\morenada2.jpg" />
-    <Content Include="assets\img\dances\morenada3.jpg" />
+    <Content Include="assets\img\dances\morenada_sq.jpg" />
     <Content Include="assets\img\dances\parade1.jpg" />
-    <Content Include="assets\img\dances\tinku.jpg" />
+    <Content Include="assets\img\dances\tinku_sq.jpg" />
     <Content Include="assets\img\dances\tobas1.jpg" />
     <Content Include="assets\img\fa.jpg" />
     <Content Include="assets\img\icons\social\amazon.png" />
