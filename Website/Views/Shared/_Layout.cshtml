@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var dances = Website.Models.DanceInfoRepository.Dances.Select(p => p.Name).ToList();
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Bolivia Marka Dance Group</title>
@@ -42,10 +45,16 @@
                                     About
                                 </a>
                             </li>
-                            <li class="@Html.IsSelected(controller: "Dances")">
+                            <li class="@Html.IsSelected(controller: "Dances") dropdown">
                                 <a href="/Dances">
                                     Dances
                                 </a>
+                                <ul class="dropdown-menu">
+                                    @foreach (var dance in dances)
+                                    {
+                                        <li>@Html.ActionLink(dance, "Info", "Dances", new { dance = dance }, null)</li>
+                                    }
+                                </ul>
                             </li>
                             <li class="@Html.IsSelected(controller: "History")">
                                 <a href="/History">
@@ -117,24 +126,21 @@
                     <div class="col-md-4 text-center">
                         <div class="headline"><h2>Book for your event</h2></div>
                         <p class="md-margin-bottom-40">
-                            There's something cool that could go in this area, maybe
-                            something about booking or example shows or something?
+                            Bolivia Marka can do performances ranging from small events through to large latin festivals.
                         </p>
                     </div>
                     <div class="col-md-4 text-center">
                         <div class="headline"><h2>Contact Us</h2></div>
                         <address class="md-margin-bottom-40">
                             Contact: Jaime Moscoso<br />
-                            Phone: 0400 000 000<br />
-                            Email: info@boliviamarka.com
+                            Phone: 04.. ... ...
                         </address>
                     </div>
                     <div class="col-md-4 text-center">
                         <div class="headline"><h2>Stay Connected</h2></div>
                         <ul class="social-icons">
-                            <li><a href="#" data-original-title="Feed" class="social_rss"></a></li>
-                            <li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
-                            <li><a href="#" data-original-title="YouTube" class="social_youtube"></a></li>
+                            <li><a href="https://twitter.com/search?f=realtime&q=%23boliviamarka" data-original-title="Feed" class="social_twitter"></a></li>
+                            <li><a href="https://facebook.com/BoliviaMarka" data-original-title="Facebook" class="social_facebook"></a></li>
                         </ul>
                     </div>
                 </div>

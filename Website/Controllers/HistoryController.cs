@@ -4,9 +4,8 @@ namespace Website.Controllers
 {
 	public class HistoryController : Controller
 	{
-		// GET: Home
-		[OutputCache(Duration = 3600)]
-		public ActionResult Index()
+        [OutputCache(CacheProfile = "HistoryProfile")]
+        public ActionResult Index()
 		{
 			return View();
 		}

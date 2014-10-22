@@ -5,7 +5,7 @@ namespace Website.Controllers
 	public class AboutController : Controller
 	{
 		// GET: Home
-		[OutputCache(Duration = 3600)]
+		[OutputCache(CacheProfile = "AboutProfile")]
 		public ActionResult Index()
 		{
 			return View();

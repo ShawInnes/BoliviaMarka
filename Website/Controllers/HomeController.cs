@@ -9,7 +9,7 @@ namespace Website.Controllers
 	public class HomeController : Controller
     {
         // GET: Home
-		[OutputCache(Duration = 3600)]
+		[OutputCache(CacheProfile = "HomeProfile")]
 		public ActionResult Index()
         {
             return View();

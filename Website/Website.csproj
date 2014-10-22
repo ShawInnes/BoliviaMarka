@@ -119,6 +119,24 @@
     <Content Include="assets\audio\Morenada-MariaJuana-Idilio.mp3" />
     <Content Include="assets\audio\Tinku-IntiIllimani-SenoraChichera.mp3" />
     <Content Include="assets\audio\Tobas-KalaMarka-EsAsi.mp3" />
+    <Content Include="assets\content\caporales.html">
+      <DependentUpon>caporales.md</DependentUpon>
+    </Content>
+    <Content Include="assets\content\cueca.html">
+      <DependentUpon>cueca.md</DependentUpon>
+    </Content>
+    <Content Include="assets\content\diablada.html">
+      <DependentUpon>diablada.md</DependentUpon>
+    </Content>
+    <Content Include="assets\content\morenada.html">
+      <DependentUpon>morenada.md</DependentUpon>
+    </Content>
+    <Content Include="assets\content\tinku.html">
+      <DependentUpon>tinku.md</DependentUpon>
+    </Content>
+    <Content Include="assets\content\tobas.html">
+      <DependentUpon>tobas.md</DependentUpon>
+    </Content>
     <Content Include="assets\css\plugins\brand-buttons\.travis.yml" />
     <Content Include="assets\css\plugins\brand-buttons\SASS\brand-buttons-inversed.scss" />
     <Content Include="assets\css\plugins\brand-buttons\SASS\brand-buttons.scss" />
@@ -1206,6 +1224,12 @@
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\History\Index.cshtml" />
     <Content Include="Views\Dances\Info.cshtml" />
+    <Content Include="assets\content\caporales.md" />
+    <Content Include="assets\content\diablada.md" />
+    <Content Include="assets\content\morenada.md" />
+    <Content Include="assets\content\tobas.md" />
+    <Content Include="assets\content\tinku.md" />
+    <Content Include="assets\content\cueca.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3289,6 +3313,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Models\DanceInfoRepository.cs" />
     <Compile Include="Controllers\DancesController.cs" />
     <Compile Include="Controllers\HistoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -3299,7 +3324,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

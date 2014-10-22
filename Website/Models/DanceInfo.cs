@@ -1,4 +1,6 @@
-﻿namespace Website.Models
+﻿using System.Web.Razor.Generator;
+
+namespace Website.Models
 {
 	public class DanceInfo
 	{
@@ -8,5 +10,9 @@
 		public string AudioDescription { get; set; }
 		public string AudioPath { get; set; }
 		public string YouTube { get; set; }
+	    public string WikiLink { get; set; }
+	    public string LongDescriptionPath { get; set; }
+        public string LongDescription { get; set; }
+        
 	}
 }
