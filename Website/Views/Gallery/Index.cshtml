@@ -1,0 +1,29 @@
+﻿@model IEnumerable<string>
+@{
+	ViewBag.HideSlider = true;
+}
+<style>
+	#galleria {
+		height: 768px;
+	}
+</style>
+	<div id="galleria">
+
+		@foreach (var item in Model)
+		{
+			<img src="/assets/img/gallery/@item" data-title="@item" alt="@item" />
+		}
+	</div>
+
+@section scripts {
+
+	<script>
+		Galleria.loadTheme('/assets/plugins/galleria/themes/classic/galleria.classic.min.js');
+		Galleria.configure({
+			autoplay: 3500,
+			transition: 'fade'
+		});
+		Galleria.run();
+	</script>
+
+}

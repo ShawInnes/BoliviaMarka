@@ -1,18 +1,41 @@
 ﻿using System.Collections.Generic;
+using Website.Infrastructure;
 
 namespace Website.Models
 {
-    public static class DanceInfoRepository
-    {
-        private static List<DanceInfo> dances;
+	public static class DanceInfoRepository
+	{
+		private static List<DanceInfo> dances;
+		private static List<string> sliders;
 
-        public static List<DanceInfo> Dances
-        {
-            get
-            {
-                if (dances == null)
-                {
-                    dances = new List<DanceInfo>
+		public static IEnumerable<string> Sliders
+		{
+			get
+			{
+				if (sliders == null)
+				{
+					sliders = new List<string>
+				    {
+					    "/assets/img/sliders/caporales1.jpg",
+                        "/assets/img/sliders/caporales2.jpg",
+                        "/assets/img/sliders/diablada1.jpg",
+                        "/assets/img/sliders/morenada2.jpg",
+                        "/assets/img/sliders/parade1.jpg",   
+                        "/assets/img/sliders/tobas1.jpg",   
+				    };
+				}
+
+				return sliders.RandomPermutation();
+			}
+		}
+
+		public static List<DanceInfo> Dances
+		{
+			get
+			{
+				if (dances == null)
+				{
+					dances = new List<DanceInfo>
                     {
                         new DanceInfo
                         {
@@ -89,10 +112,10 @@ namespace Website.Models
                 },
 */
                     };
-                }
+				}
 
-                return dances;
-            }
-        }
-    }
+				return dances;
+			}
+		}
+	}
 }

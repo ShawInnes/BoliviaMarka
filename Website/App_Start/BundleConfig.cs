@@ -17,6 +17,9 @@ namespace Website
 				"~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.plugins.min.js",
 				"~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.revolution.min.js"));
 
+			bundles.Add(new ScriptBundle("~/bundles/galleria")
+				.Include("~/assets/plugins/galleria/galleria-1.4.2.js"));
+
 			bundles.Add(new StyleBundle("~/bundles/css")
 				.Include("~/assets/plugins/bootstrap/css/bootstrap.min.css", new CssRewriteUrlTransform())
 				.Include("~/assets/css/style.css", new CssRewriteUrlTransform())
