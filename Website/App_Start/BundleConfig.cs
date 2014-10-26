@@ -18,16 +18,26 @@ namespace Website
 				"~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.revolution.min.js"));
 
 			bundles.Add(new ScriptBundle("~/bundles/galleria")
-				.Include("~/assets/plugins/galleria/galleria-1.4.2.js"));
+				.Include("~/assets/plugins/galleria/galleria-1.4.2.min.js"));
 
 			bundles.Add(new StyleBundle("~/bundles/css")
 				.Include("~/assets/plugins/bootstrap/css/bootstrap.min.css", new CssRewriteUrlTransform())
-				.Include("~/assets/css/style.css", new CssRewriteUrlTransform())
+
+				.Include("~/assets/css/app.min.css", new CssRewriteUrlTransform())
+				.Include("~/assets/css/plugins.min.css", new CssRewriteUrlTransform())
+				.Include("~/assets/css/ie8.min.css", new CssRewriteUrlTransform())
+
+				.Include("~/assets/css/plugins/animate.min.css", new CssRewriteUrlTransform())
+				.Include("~/assets/css/plugins/box-shadows.min.css", new CssRewriteUrlTransform())
+
+				.Include("~/assets/css/style.min.css", new CssRewriteUrlTransform())
+
 				.Include("~/assets/plugins/font-awesome/css/font-awesome.min.css", new CssRewriteUrlTransform())
-				.Include("~/assets/plugins/revolution-slider/examples/rs-plugin/css/settings.css", new CssRewriteUrlTransform())
-				.Include("~/assets/css/custom.css", new CssRewriteUrlTransform()));
+				.Include("~/assets/plugins/revolution-slider/examples/rs-plugin/css/settings.min.css", new CssRewriteUrlTransform())
+
+				.Include("~/assets/css/custom.min.css", new CssRewriteUrlTransform()));
 			
-			BundleTable.EnableOptimizations = false;
+			BundleTable.EnableOptimizations = true;
 		}
 	}
 }

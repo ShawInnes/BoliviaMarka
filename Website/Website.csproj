@@ -137,11 +137,59 @@
     <Content Include="assets\content\tobas.html">
       <DependentUpon>tobas.md</DependentUpon>
     </Content>
+    <Content Include="assets\css\app.min.css">
+      <DependentUpon>app.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\custom.min.css">
+      <DependentUpon>custom.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\ie8.min.css">
+      <DependentUpon>ie8.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\pages\page_404_error.min.css">
+      <DependentUpon>page_404_error.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\pages\page_404_error1.min.css">
+      <DependentUpon>page_404_error1.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\pages\page_404_error2.min.css">
+      <DependentUpon>page_404_error2.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\pages\page_404_error3.min.css">
+      <DependentUpon>page_404_error3.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\pages\page_error3_404.min.css">
+      <DependentUpon>page_error3_404.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\pages\page_error4_404.min.css">
+      <DependentUpon>page_error4_404.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\plugins.min.css">
+      <DependentUpon>plugins.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\plugins\animate.min.css">
+      <DependentUpon>animate.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\plugins\box-shadows.min.css">
+      <DependentUpon>box-shadows.css</DependentUpon>
+    </Content>
     <Content Include="assets\css\plugins\brand-buttons\.travis.yml" />
+    <Content Include="assets\css\plugins\brand-buttons\brand-buttons-inversed.min.css">
+      <DependentUpon>brand-buttons-inversed.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\plugins\brand-buttons\brand-buttons.min.css">
+      <DependentUpon>brand-buttons.css</DependentUpon>
+    </Content>
     <Content Include="assets\css\plugins\brand-buttons\SASS\brand-buttons-inversed.scss" />
     <Content Include="assets\css\plugins\brand-buttons\SASS\brand-buttons.scss" />
     <Content Include="assets\css\plugins\brand-buttons\SASS\_mixins.scss" />
     <Content Include="assets\css\plugins\brand-buttons\SASS\_variables.scss" />
+    <Content Include="assets\css\plugins\hover-effect\css\custom-hover-effects.min.css">
+      <DependentUpon>custom-hover-effects.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\plugins\hover-effect\css\hover.min.css">
+      <DependentUpon>hover.css</DependentUpon>
+    </Content>
     <Content Include="assets\css\plugins\hover-effect\scss\effects\_border-fade.scss" />
     <Content Include="assets\css\plugins\hover-effect\scss\effects\_box-shadow-inset.scss" />
     <Content Include="assets\css\plugins\hover-effect\scss\effects\_box-shadow-outset.scss" />
@@ -189,6 +237,42 @@
     <Content Include="assets\css\plugins\hover-effect\scss\_defaults.scss" />
     <Content Include="assets\css\plugins\hover-effect\scss\_hacks.scss" />
     <Content Include="assets\css\plugins\hover-effect\scss\_options.scss" />
+    <Content Include="assets\css\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\aqua.min.css">
+      <DependentUpon>aqua.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\blue.min.css">
+      <DependentUpon>blue.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\brown.min.css">
+      <DependentUpon>brown.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\dark-blue.min.css">
+      <DependentUpon>dark-blue.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\dark.min.css">
+      <DependentUpon>dark.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\default.min.css">
+      <DependentUpon>default.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\light-green.min.css">
+      <DependentUpon>light-green.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\light.min.css">
+      <DependentUpon>light.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\orange.min.css">
+      <DependentUpon>orange.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\purple.min.css">
+      <DependentUpon>purple.css</DependentUpon>
+    </Content>
+    <Content Include="assets\css\themes\red.min.css">
+      <DependentUpon>red.css</DependentUpon>
+    </Content>
     <Content Include="assets\img\dances\caporales_sq.jpg" />
     <Content Include="assets\img\dances\cueca_sq.jpg" />
     <Content Include="assets\img\dances\tobas_sq.jpg" />
@@ -244,9 +328,21 @@
     <Content Include="assets\img\gallery\tobas_44.jpg" />
     <Content Include="assets\img\gallery\tobas_45.jpg" />
     <Content Include="assets\img\gallery\tobas_46.jpg" />
+    <Content Include="assets\js\app.min.js">
+      <DependentUpon>app.js</DependentUpon>
+    </Content>
+    <Content Include="assets\js\index.min.js">
+      <DependentUpon>index.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\bootstrap\css\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\plugins\font-awesome\css\font-awesome.min.css">
+      <DependentUpon>font-awesome.css</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\plugins\font-awesome\fonts\fontawesome-webfont.ttf" />
     <Content Include="assets\plugins\font-awesome\fonts\fontawesome-webfont.woff" />
@@ -296,6 +392,9 @@
     <Content Include="assets\plugins\galleria\themes\classic\classic-map.png" />
     <Content Include="assets\plugins\galleria\themes\classic\galleria.classic.css" />
     <Content Include="assets\plugins\galleria\themes\classic\galleria.classic.js" />
+    <Content Include="assets\plugins\galleria\themes\classic\galleria.classic.min.css">
+      <DependentUpon>galleria.classic.css</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\galleria\themes\classic\galleria.classic.min.js" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\ai\glyphicons%402x.ai" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\ai\glyphicons.ai" />
@@ -776,6 +875,12 @@
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\pdf\paged\glyphicons_individual_pdf\glyphicons_99.pdf" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\psd\glyphicons%402x.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\psd\glyphicons.psd" />
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\html_css\css\glyphicons.min.css">
+      <DependentUpon>glyphicons.css</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\html_css\css\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\html_css\fonts\glyphicons-regular.eot" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\html_css\fonts\glyphicons-regular.ttf" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\html_css\fonts\glyphicons-regular.woff" />
@@ -783,6 +888,9 @@
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\html_css\less\reset.less" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\html_css\less\site.less" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\html_css\less\style.less" />
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\html_css\scripts\modernizr.min.js">
+      <DependentUpon>modernizr.js</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\psd-web\dark\glyphicons.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\psd-web\light\glyphicons.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\ai\glyphicons_filetypes%402x.ai" />
@@ -924,12 +1032,21 @@
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\pdf\paged\glyphicons_filetypes.pdf" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\psd\glyphicons_filetypes%402x.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\psd\glyphicons_filetypes.psd" />
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\html_css\css\filetypes.min.css">
+      <DependentUpon>filetypes.css</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\html_css\css\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\html_css\fonts\glyphicons-filetypes-regular.eot" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\html_css\fonts\glyphicons-filetypes-regular.woff" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\html_css\less\filetypes.less" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\html_css\less\reset.less" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\html_css\less\site.less" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\html_css\less\style.less" />
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\html_css\scripts\modernizr.min.js">
+      <DependentUpon>modernizr.js</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\psd-web\dark\glyphicons_filetypes.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\psd-web\light\glyphicons_filetypes.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\ai\glyphicons_halflings%402x.ai" />
@@ -1141,6 +1258,12 @@
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\pdf\paged\halflings_individual_pdf\halflings_99.pdf" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\psd\glyphicons_halflings%402x.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\psd\glyphicons_halflings.psd" />
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\html_css\css\halflings.min.css">
+      <DependentUpon>halflings.css</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\html_css\css\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\html_css\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\html_css\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\html_css\fonts\glyphicons-halflings-regular.woff" />
@@ -1148,6 +1271,9 @@
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\html_css\less\reset.less" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\html_css\less\site.less" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\html_css\less\style.less" />
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\html_css\scripts\modernizr.min.js">
+      <DependentUpon>modernizr.js</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\psd-web\dark\glyphicons_halflings.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\psd-web\light\glyphicons_halflings.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_handbook.pdf" />
@@ -1210,6 +1336,12 @@
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\pdf\paged\social_individual_pdf\social_9.pdf" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\psd\glyphicons_social%402x.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\psd\glyphicons_social.psd" />
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\html_css\css\social.min.css">
+      <DependentUpon>social.css</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\html_css\css\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\html_css\fonts\glyphicons-social-regular.eot" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\html_css\fonts\glyphicons-social-regular.ttf" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\html_css\fonts\glyphicons-social-regular.woff" />
@@ -1217,17 +1349,53 @@
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\html_css\less\site.less" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\html_css\less\social.less" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\html_css\less\style.less" />
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\html_css\scripts\modernizr.min.js">
+      <DependentUpon>modernizr.js</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\psd-web\dark\glyphicons_social.psd" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\psd-web\light\glyphicons_social.psd" />
+    <Content Include="assets\plugins\modernizr.custom.min.js">
+      <DependentUpon>modernizr.custom.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\respond.min.js">
+      <DependentUpon>respond.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\revolution-slider\editor\editor\editor.min.css">
+      <DependentUpon>editor.css</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\revolution-slider\editor\editor\editor.min.js">
+      <DependentUpon>editor.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\revolution-slider\editor\editor\type\fontello.min.css">
+      <DependentUpon>fontello.css</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\revolution-slider\editor\editor\type\fontello\fontello-social.eot" />
     <Content Include="assets\plugins\revolution-slider\editor\editor\type\fontello\fontello-social.ttf" />
     <Content Include="assets\plugins\revolution-slider\editor\editor\type\fontello\fontello-social.woff" />
     <Content Include="assets\plugins\revolution-slider\editor\editor\type\fontello\fontello.eot" />
     <Content Include="assets\plugins\revolution-slider\editor\editor\type\fontello\fontello.ttf" />
     <Content Include="assets\plugins\revolution-slider\editor\editor\type\fontello\fontello.woff" />
+    <Content Include="assets\plugins\revolution-slider\examples\css\extralayers.min.css">
+      <DependentUpon>extralayers.css</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\revolution-slider\examples\css\navstylechange.min.css">
+      <DependentUpon>navstylechange.css</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\revolution-slider\examples\css\noneed.min.css">
+      <DependentUpon>noneed.css</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\revolution-slider\examples\css\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\revolution-slider\examples\rs-plugin\assets\arrows.psd" />
     <Content Include="assets\plugins\revolution-slider\examples\rs-plugin\assets\bullets.psd" />
     <Content Include="assets\plugins\revolution-slider\examples\rs-plugin\assets\small_arrows.psd" />
+    <Content Include="assets\plugins\revolution-slider\examples\rs-plugin\css\settings-ie8.min.css">
+      <DependentUpon>settings-ie8.css</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\revolution-slider\examples\rs-plugin\css\settings.min.css">
+      <DependentUpon>settings.css</DependentUpon>
+    </Content>
     <Content Include="assets\plugins\revolution-slider\examples\rs-plugin\font\revicons.eot" />
     <Content Include="assets\plugins\revolution-slider\examples\rs-plugin\font\revicons.ttf" />
     <Content Include="assets\plugins\revolution-slider\examples\rs-plugin\font\revicons.woff" />
@@ -1254,6 +1422,33 @@
     <Content Include="assets\content\cueca.md" />
     <Content Include="Views\Gallery\Index.cshtml" />
     <Content Include="assets\plugins\galleria\LICENSE" />
+    <Content Include="assets\js\app.min.js.map">
+      <DependentUpon>app.min.js</DependentUpon>
+    </Content>
+    <Content Include="assets\js\index.min.js.map">
+      <DependentUpon>index.min.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\modernizr.custom.min.js.map">
+      <DependentUpon>modernizr.custom.min.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\respond.min.js.map">
+      <DependentUpon>respond.min.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons\web\html_css\scripts\modernizr.min.js.map">
+      <DependentUpon>modernizr.min.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_filetypes\web\html_css\scripts\modernizr.min.js.map">
+      <DependentUpon>modernizr.min.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_halflings\web\html_css\scripts\modernizr.min.js.map">
+      <DependentUpon>modernizr.min.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\glyphicons_pro\glyphicons_social\web\html_css\scripts\modernizr.min.js.map">
+      <DependentUpon>modernizr.min.js</DependentUpon>
+    </Content>
+    <Content Include="assets\plugins\revolution-slider\editor\editor\editor.min.js.map">
+      <DependentUpon>editor.min.js</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1279,7 +1474,6 @@
     <Content Include="assets\css\plugins\brand-buttons\css\brand-buttons-inversed.min.css" />
     <Content Include="assets\css\plugins\brand-buttons\css\brand-buttons.min.css" />
     <Content Include="assets\css\plugins\hover-effect\css\custom-hover-effects.css" />
-    <Content Include="assets\css\plugins\hover-effect\css\hover-min.css" />
     <Content Include="assets\css\plugins\hover-effect\css\hover.css" />
     <Content Include="assets\css\plugins\hover-effect\license.txt" />
     <Content Include="assets\css\style.css" />
@@ -1346,12 +1540,10 @@
     <Content Include="assets\js\app.js" />
     <Content Include="assets\js\index.js" />
     <Content Include="assets\plugins\bootstrap\css\bootstrap.css" />
-    <Content Include="assets\plugins\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="assets\plugins\bootstrap\js\bootstrap.js" />
     <Content Include="assets\plugins\bootstrap\js\bootstrap.min.js" />
     <Content Include="assets\plugins\font-awesome\css\font-awesome.css" />
-    <Content Include="assets\plugins\font-awesome\css\font-awesome.min.css" />
     <Content Include="assets\plugins\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\png\glyphicons_000_glass%402x.png" />
     <Content Include="assets\plugins\glyphicons_pro\glyphicons\png\glyphicons_000_glass.png" />

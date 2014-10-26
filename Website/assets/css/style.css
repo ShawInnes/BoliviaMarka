@@ -6,15 +6,6 @@
  * Website: http://htmlstream.com
 */
 
-/*Import Global Compulsory CSS Files*/
-@import url(app.css);
-@import url(plugins.css);
-@import url(ie8.css);
-
-/*Import CSS Plugins*/
-@import url(plugins/animate.css);
-@import url(plugins/box-shadows.css);
-
 /*Boxed Layout
 ------------------------------------*/
 .wrapper {
@@ -1239,14 +1230,7 @@ a.thumbnail {
 
 .thumbnail-style { 
 	padding: 7px;
-	margin-bottom: 20px; 
-}
-.thumbnail-style:hover { 
-	box-shadow: 0 0 8px #ddd; 
-    -webkit-transition: box-shadow 0.2s ease-in-out;
-    -moz-transition: box-shadow 0.2s ease-in-out;
-    -o-transition: box-shadow 0.2s ease-in-out;
-    transition: box-shadow 0.2s ease-in-out;
+	margin-bottom: 20px;
 }
 
 .thumbnail h3,
