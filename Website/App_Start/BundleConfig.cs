@@ -6,19 +6,25 @@ namespace Website
 	{
 		public static void Register(BundleCollection bundles)
 		{
-			bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-				"~/assets/plugins/jquery-1.10.2.min.js",
-				"~/assets/plugins/jquery-migrate-1.2.1.min.js"));
+			/*
+			bundles.Add(new ScriptBundle("~/bundles/jquery")
+				.Include("~/assets/plugins/jquery-1.10.2.min.js", "~/assets/plugins/jquery-migrate-1.2.1.min.js"));
 
-			bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-				"~/assets/plugins/bootstrap/js/bootstrap.min.js"));
+			bundles.Add(new ScriptBundle("~/bundles/bootstrap")
+				.Include("~/assets/plugins/bootstrap/js/bootstrap.min.js"));
 
-			bundles.Add(new ScriptBundle("~/bundles/revolution").Include(
-				"~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.plugins.min.js",
-				"~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.revolution.min.js"));
+			bundles.Add(new ScriptBundle("~/bundles/revolution")
+				.Include("~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.plugins.min.js", "~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.revolution.min.js"));
 
 			bundles.Add(new ScriptBundle("~/bundles/galleria")
 				.Include("~/assets/plugins/galleria/galleria-1.4.2.min.js"));
+			*/
+			bundles.Add(new ScriptBundle("~/bundles/app")
+				.Include("~/assets/plugins/jquery-1.10.2.min.js", "~/assets/plugins/jquery-migrate-1.2.1.min.js")
+				.Include("~/assets/plugins/bootstrap/js/bootstrap.min.js")
+				.Include("~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.plugins.min.js", "~/assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.revolution.min.js")
+				.Include("~/assets/plugins/galleria/galleria-1.4.2.min.js")
+				.Include("~/assets/js/app.min.js", "~/assets/js/index.min.js"));
 
 			bundles.Add(new StyleBundle("~/bundles/css")
 				.Include("~/assets/plugins/bootstrap/css/bootstrap.min.css", new CssRewriteUrlTransform())
